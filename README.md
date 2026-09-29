@@ -9,9 +9,9 @@ Both levels are evaluated on the **same held-out test data** with standard metri
 
 | | |
 |---|---|
-| **Student** | _your name_ |
-| **Register no.** | _your register number_ |
-| **Course** | Computer Vision |
+| **Student** |Rishi Gerolaga Kumar|
+| **Register no.** |URK24RA3001|
+| **Course** | Computer Vision  |
 | **Institution** | Karunya Institute of Technology and Sciences |
 
 ---
