@@ -1,0 +1,54 @@
+{
+  "moving | high-level YOLOv8n+ByteTrack": {
+    "sequences": [
+      "MOT16-11",
+      "KITTI-17"
+    ],
+    "MOTA": 48.2,
+    "IDF1": 55.7,
+    "precision": 79.2,
+    "recall": 67.9,
+    "ID_switches": 42,
+    "FP": 1712,
+    "FN": 3279,
+    "mostly_tracked": 30,
+    "mostly_lost": 26,
+    "mean_fps": 9.6
+  },
+  "static | high-level YOLOv8n+ByteTrack": {
+    "sequences": [
+      "MOT16-09",
+      "PETS09-S2L1",
+      "TUD-Stadtmitte",
+      "TUD-Campus"
+    ],
+    "MOTA": 64.8,
+    "IDF1": 67.4,
+    "precision": 81.9,
+    "recall": 84.8,
+    "ID_switches": 99,
+    "FP": 2366,
+    "FN": 2015,
+    "mostly_tracked": 41,
+    "mostly_lost": 3,
+    "mean_fps": 5.9
+  },
+  "static | low-level MOG2+IoU": {
+    "sequences": [
+      "MOT16-09",
+      "PETS09-S2L1",
+      "TUD-Stadtmitte",
+      "TUD-Campus"
+    ],
+    "MOTA": 8.1,
+    "IDF1": 25.6,
+    "precision": 54.7,
+    "recall": 37.8,
+    "ID_switches": 101,
+    "FP": 3204,
+    "FN": 7571,
+    "mostly_tracked": 6,
+    "mostly_lost": 29,
+    "mean_fps": 39.9
+  }
+}

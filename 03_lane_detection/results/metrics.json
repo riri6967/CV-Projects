@@ -1,0 +1,61 @@
+{
+  "simulated_drift_test": {
+    "frames": 46,
+    "samples": 690,
+    "warning_accuracy": 98.6,
+    "warning_precision": 100.0,
+    "warning_recall": 97.6,
+    "warning_f1": 98.8,
+    "offset_MAE_pct_lane_width": 0.53,
+    "offset_estimated_pct": 100.0,
+    "confusion_matrix [[TN, FP], [FN, TP]]": [
+      [
+        276,
+        0
+      ],
+      [
+        10,
+        404
+      ]
+    ]
+  },
+  "challenge.mp4": {
+    "frames": 251,
+    "fps": 13.6,
+    "left_detection_rate": 100.0,
+    "right_detection_rate": 100.0,
+    "both_detection_rate": 100.0,
+    "left_jitter_px": 1.48,
+    "right_jitter_px": 2.28,
+    "false_warning_rate": 0.0,
+    "mean_abs_offset_pct": 5.3,
+    "manual_accuracy_pct": 100.0,
+    "manual_frames_checked": 9
+  },
+  "solidWhiteRight.mp4": {
+    "frames": 221,
+    "fps": 25.8,
+    "left_detection_rate": 100.0,
+    "right_detection_rate": 100.0,
+    "both_detection_rate": 100.0,
+    "left_jitter_px": 0.75,
+    "right_jitter_px": 0.7,
+    "false_warning_rate": 0.0,
+    "mean_abs_offset_pct": 3.6,
+    "manual_accuracy_pct": 100.0,
+    "manual_frames_checked": 8
+  },
+  "solidYellowLeft.mp4": {
+    "frames": 681,
+    "fps": 25.6,
+    "left_detection_rate": 100.0,
+    "right_detection_rate": 100.0,
+    "both_detection_rate": 100.0,
+    "left_jitter_px": 0.56,
+    "right_jitter_px": 0.8,
+    "false_warning_rate": 0.0,
+    "mean_abs_offset_pct": 3.8,
+    "manual_accuracy_pct": 100.0,
+    "manual_frames_checked": 23
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "low_level_image_processing": {
+    "AP50": 11.16,
+    "conf_threshold": 0.329,
+    "precision": 21.36,
+    "recall": 36.25,
+    "f1": 26.88,
+    "ms_per_image": 105.8
+  },
+  "high_level_yolov8n": {
+    "AP50": 85.37,
+    "conf_threshold": 0.362,
+    "precision": 83.42,
+    "recall": 79.71,
+    "f1": 81.52,
+    "ms_per_image": 48.3,
+    "ultralytics_mAP50": 85.52,
+    "ultralytics_mAP50_95": 59.68,
+    "ultralytics_precision": 83.78,
+    "ultralytics_recall": 79.47
+  },
+  "test_images": 651,
+  "test_gt_boxes": 833
+}

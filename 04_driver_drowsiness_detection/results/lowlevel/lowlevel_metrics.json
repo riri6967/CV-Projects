@@ -1,0 +1,67 @@
+{
+  "eye_closed_vs_open": {
+    "single_cue_rule": {
+      "cue": "blob_h_over_w",
+      "threshold": 0.5417,
+      "direction": "< means positive",
+      "accuracy": 74.31,
+      "f1": 79.56,
+      "roc_auc": 78.51
+    },
+    "hog_geometric_svm": {
+      "accuracy": 99.08,
+      "f1": 99.23,
+      "confusion_matrix": [
+        [
+          87,
+          2
+        ],
+        [
+          0,
+          129
+        ]
+      ]
+    },
+    "per_cue_test_auc": {
+      "dark_share": 53.6,
+      "blob_h_over_w": 78.5,
+      "blob_fill": 58.6,
+      "sclera_share": 71.8,
+      "grad_v_over_h": 77.4,
+      "darkest_share": 50.5
+    },
+    "test_images": 218
+  },
+  "yawn_vs_no_yawn": {
+    "single_cue_rule": {
+      "cue": "cavity_share",
+      "threshold": 0.0324,
+      "direction": "> means positive",
+      "accuracy": 53.64,
+      "f1": 43.96,
+      "roc_auc": 58.03
+    },
+    "hog_geometric_svm": {
+      "accuracy": 72.27,
+      "f1": 63.03,
+      "confusion_matrix": [
+        [
+          107,
+          12
+        ],
+        [
+          49,
+          52
+        ]
+      ]
+    },
+    "per_cue_test_auc": {
+      "cavity_share": 58.0,
+      "cavity_h_over_w": 54.4,
+      "cavity_blob_area": 59.5,
+      "roi_contrast": 54.5,
+      "skin_hole_area": 52.4
+    },
+    "test_images": 220
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "test_images": 994,
+  "accuracy": 94.57,
+  "macro_precision": 94.78,
+  "macro_recall": 94.6,
+  "macro_f1": 94.61,
+  "healthy_vs_diseased_accuracy": 99.4,
+  "inference_ms_per_image_cpu": 9.3,
+  "per_class": {
+    "Bacterial_spot": {
+      "precision": 96.7,
+      "recall": 88.0,
+      "f1-score": 92.1
+    },
+    "Early_blight": {
+      "precision": 86.1,
+      "recall": 93.0,
+      "f1-score": 89.4
+    },
+    "Late_blight": {
+      "precision": 95.7,
+      "recall": 89.0,
+      "f1-score": 92.2
+    },
+    "Leaf_Mold": {
+      "precision": 97.1,
+      "recall": 99.0,
+      "f1-score": 98.0
+    },
+    "Septoria_leaf_spot": {
+      "precision": 96.9,
+      "recall": 95.0,
+      "f1-score": 96.0
+    },
+    "Spider_mites_Two-spotted_spider_mite": {
+      "precision": 93.3,
+      "recall": 97.0,
+      "f1-score": 95.1
+    },
+    "Target_Spot": {
+      "precision": 86.1,
+      "recall": 93.0,
+      "f1-score": 89.4
+    },
+    "Tomato_Yellow_Leaf_Curl_Virus": {
+      "precision": 100.0,
+      "recall": 97.0,
+      "f1-score": 98.5
+    },
+    "Tomato_mosaic_virus": {
+      "precision": 96.9,
+      "recall": 100.0,
+      "f1-score": 98.4
+    },
+    "healthy": {
+      "precision": 99.0,
+      "recall": 95.0,
+      "f1-score": 96.9
+    }
+  }
+}

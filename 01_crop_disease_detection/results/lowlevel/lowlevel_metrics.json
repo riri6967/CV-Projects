@@ -1,0 +1,35 @@
+{
+  "severity_rule": {
+    "threshold_pct": 5.3,
+    "accuracy": 65.9,
+    "balanced_accuracy": 78.82,
+    "f1_diseased": 76.76,
+    "roc_auc": 86.08,
+    "confusion_matrix": [
+      [
+        95,
+        5
+      ],
+      [
+        334,
+        560
+      ]
+    ]
+  },
+  "handcrafted_svm": {
+    "accuracy": 87.83,
+    "macro_f1": 87.76,
+    "per_class_f1": {
+      "Bacterial_spot": 93.3,
+      "Early_blight": 76.8,
+      "Late_blight": 76.8,
+      "Leaf_Mold": 93.5,
+      "Septoria_leaf_spot": 83.0,
+      "Spider_mites_Two-spotted_spider_mite": 84.7,
+      "Target_Spot": 82.6,
+      "Tomato_Yellow_Leaf_Curl_Virus": 95.2,
+      "Tomato_mosaic_virus": 95.8,
+      "healthy": 95.9
+    }
+  }
+}

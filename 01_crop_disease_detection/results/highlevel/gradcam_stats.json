@@ -1,0 +1,5 @@
+{
+  "mean_gradcam_energy_on_lesions_pct": 12.8,
+  "mean_lesion_area_share_pct": 10.3,
+  "images": 9
+}

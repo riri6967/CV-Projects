@@ -1,0 +1,12 @@
+# Datasets are downloaded separately (see each project's dataset/README.md)
+*/data/
+*/raw/
+# Training run folders (final weights are copied to models/)
+*/runs/
+# Pretrained base weights are downloaded automatically by Ultralytics
+yolov8n.pt
+yolov8n-cls.pt
+*.zip
+__pycache__/
+*.pyc
+cvenv/

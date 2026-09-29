@@ -1,0 +1,23 @@
+{
+  "challenge.mp4": {
+    "frames": 251,
+    "fps": 6.7,
+    "mean_vehicles_per_frame": 2.28,
+    "frames_with_ego_vehicle_pct": 0.4,
+    "fcw_frames_pct": 0.0
+  },
+  "solidWhiteRight.mp4": {
+    "frames": 221,
+    "fps": 9.5,
+    "mean_vehicles_per_frame": 3.39,
+    "frames_with_ego_vehicle_pct": 0.0,
+    "fcw_frames_pct": 0.0
+  },
+  "solidYellowLeft.mp4": {
+    "frames": 681,
+    "fps": 7.8,
+    "mean_vehicles_per_frame": 1.43,
+    "frames_with_ego_vehicle_pct": 0.0,
+    "fcw_frames_pct": 0.0
+  }
+}

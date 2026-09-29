@@ -1,0 +1,19 @@
+{
+  "cnn": {
+    "four_class_accuracy": 99.32,
+    "macro_f1": 99.31,
+    "eye_closed_vs_open_accuracy": 100.0,
+    "eye_closed_f1": 100.0,
+    "yawn_vs_no_yawn_accuracy": 98.64,
+    "yawn_f1": 98.49,
+    "ms_per_image_cpu": 12.9
+  },
+  "mediapipe_mar_rule": {
+    "threshold": 0.35,
+    "accuracy": 96.36,
+    "f1": 96.0,
+    "roc_auc": 99.73,
+    "faces_not_found": 1,
+    "test_images": 220
+  }
+}
